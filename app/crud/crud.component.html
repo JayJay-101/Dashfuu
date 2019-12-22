@@ -1,0 +1,88 @@
+
+<div class="AddEmployeeTitleContainer">
+  <div class="addEmployeeTitleContainer">
+    <div >Add Employee ==></div>
+</div>
+<div class="addEmployeeBtnContainer">
+  <div class="addNewEmployeeBtn" (click)="addNewEmployeeBtn()">++</div>
+</div>
+</div>
+
+<div *ngIf="newEmployeeClicked">
+<div class="formWrapper">
+<form>
+  <div class="form-group name">
+    <!-- <label for="name">Name:</label> -->
+    <input type="text"
+           class="form-control input"
+           id="name"
+           name="name"
+           [(ngModel)]="model.name"
+           placeholder="Name">
+  </div>
+
+   <div class="form-group position">
+    <!-- <label for="position">Position:</label> -->
+    <input type="text"
+           class="form-control positionInput"
+           id="position"
+           name="position"
+           [(ngModel)]="model.position"
+           placeholder="Position">
+  </div>
+  <div class="submitBtnContainer">
+    <button type="submit" class="saveBtn" (click)="addEmployee()">SAVE</button>
+  </div>
+</form>
+</div>
+</div>
+
+
+<div class="tableWrapper">
+<div class="containerTitle">
+  <div class="oneTitle">Name</div>
+  <div class="twoTitle">Position</div>
+  <div class="threeTitle">Actions</div>
+  <!-- <div class="four"></div> -->
+</div>
+
+<div class="containerListItems" *ngFor="let employee of employees; let i = index" [style.background-color]="changeColorOne()">
+  <div class="one">{{employee.name}}</div>
+  <div class="two">{{employee.position}}</div>
+  <div class="three">
+    <button (click)="editEmployee(i)">Edit</button>
+    <button (click)="deleteEmployee(employee)">Delete</button>
+  </div>
+  <!-- <div class="four"></div> -->
+</div>
+</div>
+
+
+
+<div class="editEmployeeTitleContainer">
+  <div *ngIf="editEmployeeClicked">
+  <div class="">Edit Employee</div>
+
+<form>
+  <div class="form-group name">
+    <!-- <label for="name">Name:</label> -->
+    <input type="text"
+           class="form-control"
+           id="name"
+           name="name"
+           [(ngModel)]="model2.name"
+           placeholder="Name">
+  </div>
+
+   <div class="form-group position">
+    <!-- <label for="position">Position:</label> -->
+    <input type="text"
+           class="form-control"
+           id="position"
+           name="position"
+           [(ngModel)]="model2.position"
+           placeholder="Position">
+  </div>
+  <button type="submit" (click)="updateEmployee()">Update</button>
+</form>
+</div>
