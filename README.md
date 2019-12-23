@@ -1,3 +1,17 @@
-# hjkdashfu
+## INTRODUCTORY CRUD APP  WITH SIMPLE FUNCTIONS
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/hjkdashfu)
+![gif preview](https://user-images.githubusercontent.com/40483589/71363982-dd00ff00-25c0-11ea-88d4-3712b06f77f0.gif)
+
+
+## Usage
+1. Open [Stackblitz](https://stackblitz.com/edit/hjkdashfu) to edit app;
+2. Open **crud** folder containing css,ts,html files;
+3. 
+
+### functions
+    > crud.component.ts file have crudcomponent class containing `variables` and functions
+    >  add.employee pushes model into array
+    >  delete splices  data
+    >  edit stores data into temporarily
+    >  update updates
+[Made by StackBlitz ⚡️](https://stackblitz.com)
