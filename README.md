@@ -6,7 +6,7 @@
 ## Usage
 1. Open [Stackblitz](https://stackblitz.com/edit/hjkdashfu) to edit app;
 2. Open **crud** folder containing css,ts,html files;
-3. 
+3. Manipulate files 
 
 ### functions
     > crud.component.ts file have crudcomponent class containing `variables` and functions
@@ -14,4 +14,5 @@
     >  delete splices  data
     >  edit stores data into temporarily
     >  update updates
-[Made by StackBlitz ⚡️](https://stackblitz.com)
+## Contributions
+    >   [Made by StackBlitz ⚡️](https://stackblitz.com)
