@@ -40,4 +40,4 @@
     >  update() updates and Edits;
     
 ## Contributions
-     [Made by StackBlitz ⚡️](https://stackblitz.com)
+  [Made by StackBlitz ⚡️](https://stackblitz.com)
