@@ -4,9 +4,8 @@
 
 
 ## Usage
-1. Open [Stackblitz](https://stackblitz.com/edit/hjkdashfu) to edit app;
-2. Open **crud** folder containing css,ts,html files;
-3. Manipulate files; 
+1. Open [Stackblitz](https://stackblitz.com/edit/hjkdashfu) to edit app ;
+2. Open **...app/crud** folder containing css,ts,html files ; 
 
 ### functions
     >  crud.component.ts file have crudcomponent class containing `variables` and functions;
